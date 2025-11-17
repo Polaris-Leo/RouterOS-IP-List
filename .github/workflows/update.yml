@@ -5,6 +5,9 @@ on:
     - cron: "0 18 * * *"   # 每天 02:00（中国时间，UTC+8 = UTC 18 点）
   workflow_dispatch:       # 可手动触发
 
+permissions:
+  contents: write     # 允许 workflow 写入仓库
+
 jobs:
   update:
     runs-on: ubuntu-latest
