@@ -1,8 +1,10 @@
-# scripts/generate_rsc.py
 import os
+import hashlib
+import ipaddress
 
 DATA_DIR = "data"
 OUTPUT_DIR = "output"
+CHECKSUM_DIR = "checksum"
 
 ISP_MAP = {
     "cernet": "cernet.txt",
@@ -17,31 +19,61 @@ def ensure_folder(path):
     if not os.path.exists(path):
         os.makedirs(path)
 
-def create_ros_script(provider_name, input_txt_file, output_rsc_file):
+def validate_cidr_list(lines):
+    """确保内容全部是合法的 IP/CIDR"""
+    valid = []
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            ipaddress.ip_network(line, strict=False)
+            valid.append(line)
+        except:
+            print(f"[WARN] 非法行已忽略: {line}")
+    return valid
+
+def write_checksum(file_path, checksum_path):
+    """生成 SHA256 校验值"""
+    sha256 = hashlib.sha256()
+    with open(file_path, "rb") as f:
+        sha256.update(f.read())
+    with open(checksum_path, "w") as f:
+        f.write(sha256.hexdigest())
+
+def create_ros_script(provider_name, input_file, output_file, checksum_file):
     try:
-        with open(input_txt_file, 'r', encoding='utf-8') as f_in:
-            ip_list = [line.strip() for line in f_in if line.strip()]
+        with open(input_file, 'r', encoding='utf-8') as f:
+            raw_lines = f.readlines()
 
-        with open(output_rsc_file, 'w', encoding='utf-8') as f_out:
-            f_out.write(f"/ip firewall address-list remove [/ip firewall address-list find list={provider_name}]\n")
-            f_out.write("/ip firewall address-list\n")
+        lines = validate_cidr_list(raw_lines)
 
-            for ip in ip_list:
-                f_out.write(f"add address={ip} list={provider_name}\n")
+        if len(lines) < 10:
+            raise Exception(f"{provider_name} 内容过短，疑似下载失败。")
 
-        print(f"生成: {output_rsc_file}")
+        with open(output_file, "w", encoding="utf-8") as f:
+            f.write(f"/ip firewall address-list remove [/ip firewall address-list find list={provider_name}]\n")
+            f.write("/ip firewall address-list\n")
+            for ip in lines:
+                f.write(f"add address={ip} list={provider_name}\n")
 
-    except FileNotFoundError:
-        print(f"找不到文件: {input_txt_file}")
+        write_checksum(output_file, checksum_file)
+        print(f"[OK] 生成 {output_file}")
+
+    except Exception as e:
+        print(f"[ERROR] 生成 {provider_name} 失败：{e}")
+        raise e
 
 def main():
     ensure_folder(OUTPUT_DIR)
+    ensure_folder(CHECKSUM_DIR)
 
-    for isp, file_name in ISP_MAP.items():
-        input_path = os.path.join(DATA_DIR, file_name)
+    for isp, fname in ISP_MAP.items():
+        input_path = os.path.join(DATA_DIR, fname)
         output_path = os.path.join(OUTPUT_DIR, f"chnroutes-{isp}.rsc")
-        create_ros_script(isp, input_path, output_path)
+        checksum_path = os.path.join(CHECKSUM_DIR, f"chnroutes-{isp}.sha256")
 
+        create_ros_script(isp, input_path, output_path, checksum_path)
 
 if __name__ == "__main__":
     main()
