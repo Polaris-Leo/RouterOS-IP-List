@@ -1,10 +1,5 @@
-/ip firewall address-list remove [/ip firewall address-list find list=cn6]
-/ip firewall address-list
-add address=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> list=cn6
-add address=<html xmlns="http://www.w3.org/1999/xhtml"> list=cn6
-add address=<head profile="http://gmpg.org/xfn/11"> list=cn6
-add address=<STYLE>body {font-family:Verdana,Tahoma,"BitStream vera Sans",Arial,Helvetica,sans-serif;font-size:14px;line-height:16px;} pre{font-size:14px;line-height:16px;} a{text-decoration:none;} a:hover{text-decoration:underline;}</STYLE> list=cn6
-add address=# IP发布页: <a href=https://ispip.clang.cn/>https://ispip.clang.cn/</a> list=cn6
+/ipv6 firewall address-list remove [/ipv6 firewall address-list find list=cn6]
+/ipv6 firewall address-list
 add address=2001:250::/30 list=cn6
 add address=2001:254::/31 list=cn6
 add address=2001:256:100::/48 list=cn6
@@ -1514,5 +1509,3 @@ add address=2c0f:f7a8:9020::/48 list=cn6
 add address=2c0f:f7a8:9041::/48 list=cn6
 add address=2c0f:f7a8:9210::/47 list=cn6
 add address=2c0f:f7a8:9220::/48 list=cn6
-add address=&copy;Clang.CN | <a href="http://Clang.CN/">╃苍狼山庄╃</a> | <a href="https://ispip.clang.cn/">查看更多IP文件</a> | <a href="http://www.beian.miit.gov.cn/" rel="external nofollow" target="_blank">黑ICP备16002903号</a><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=23011002000037" rel="external nofollow" target="_blank" /><img src="/beian.png" /> 黑公网安备 23011002000037号</a> list=cn6
-add address=<p>Internet information provided by <a href="https://ipnetdb.com" target="_blank" rel="noopener noreferrer nofollow">IPNetDB</a></p> list=cn6
