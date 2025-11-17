@@ -1,0 +1,39 @@
+name: Update RouterOS IP Lists
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # 每天 02:00（中国时间，UTC+8 = UTC 18 点）
+  workflow_dispatch:       # 可手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Download IP list files
+        run: |
+          python scripts/fetch_ip_lists.py
+
+      - name: Generate RSC scripts
+        run: |
+          python scripts/generate_rsc.py
+
+      - name: Commit & Push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/*.rsc data/*.txt
+          git commit -m "Auto update RouterOS IP lists $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push
