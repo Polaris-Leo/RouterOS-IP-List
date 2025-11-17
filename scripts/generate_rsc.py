@@ -7,12 +7,12 @@ OUTPUT_DIR = "output"
 CHECKSUM_DIR = "checksum"
 
 ISP_MAP = {
-    "cernet": "cernet.txt",
-    "cmcc": "cmcc.txt",
+    "cernet":  "cernet.txt",
+    "cmcc":    "cmcc.txt",
     "telecom": "telecom.txt",
-    "unicom": "unicom.txt",
-    "cn": "all_cn.txt",
-    "cn6": "all_cn_ipv6.txt"
+    "unicom":  "unicom.txt",
+    "cn":      "all_cn.txt",
+    "cn6":     "all_cn_ipv6.txt"   # IPv6
 }
 
 def ensure_folder(path):
@@ -29,7 +29,7 @@ def validate_cidr_list(lines):
         try:
             ipaddress.ip_network(line, strict=False)
             valid.append(line)
-        except:
+        except Exception:
             print(f"[WARN] 非法行已忽略: {line}")
     return valid
 
@@ -43,17 +43,26 @@ def write_checksum(file_path, checksum_path):
 
 def create_ros_script(provider_name, input_file, output_file, checksum_file):
     try:
-        with open(input_file, 'r', encoding='utf-8') as f:
+        with open(input_file, "r", encoding="utf-8") as f:
             raw_lines = f.readlines()
 
         lines = validate_cidr_list(raw_lines)
 
-        if len(lines) < 10:
-            raise Exception(f"{provider_name} 内容过短，疑似下载失败。")
+        if len(lines) < 1:
+            raise Exception(f"{provider_name} 内容为空，疑似下载失败。")
 
+        # ------- 生成 RouterOS 脚本 -------
         with open(output_file, "w", encoding="utf-8") as f:
-            f.write(f"/ip firewall address-list remove [/ip firewall address-list find list={provider_name}]\n")
-            f.write("/ip firewall address-list\n")
+
+            # IPv4 vs IPv6
+            if provider_name == "cn6":
+                f.write(f"/ipv6 firewall address-list remove [/ipv6 firewall address-list find list={provider_name}]\n")
+                f.write("/ipv6 firewall address-list\n")
+            else:
+                f.write(f"/ip firewall address-list remove [/ip firewall address-list find list={provider_name}]\n")
+                f.write("/ip firewall address-list\n")
+
+            # 写入 CIDR
             for ip in lines:
                 f.write(f"add address={ip} list={provider_name}\n")
 
@@ -63,6 +72,7 @@ def create_ros_script(provider_name, input_file, output_file, checksum_file):
     except Exception as e:
         print(f"[ERROR] 生成 {provider_name} 失败：{e}")
         raise e
+
 
 def main():
     ensure_folder(OUTPUT_DIR)
