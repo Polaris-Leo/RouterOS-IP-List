@@ -341,6 +341,7 @@ add address=103.10.84.0/22 list=telecom
 add address=103.15.96.0/22 list=telecom
 add address=103.17.40.0/22 list=telecom
 add address=103.19.232.0/22 list=telecom
+add address=103.20.34.0/24 list=telecom
 add address=103.20.128.0/22 list=telecom
 add address=103.20.160.0/22 list=telecom
 add address=103.20.248.0/22 list=telecom
@@ -1050,7 +1051,6 @@ add address=121.58.0.0/17 list=telecom
 add address=121.58.156.0/22 list=telecom
 add address=121.59.4.0/22 list=telecom
 add address=121.59.8.0/21 list=telecom
-add address=121.59.17.0/24 list=telecom
 add address=121.59.160.0/20 list=telecom
 add address=121.59.255.0/24 list=telecom
 add address=121.60.0.0/14 list=telecom
@@ -1075,6 +1075,7 @@ add address=122.112.192.0/22 list=telecom
 add address=122.115.0.0/20 list=telecom
 add address=122.115.32.0/19 list=telecom
 add address=122.115.224.0/20 list=telecom
+add address=122.144.240.0/24 list=telecom
 add address=122.200.40.0/21 list=telecom
 add address=122.200.64.0/18 list=telecom
 add address=122.224.0.0/12 list=telecom
@@ -1761,7 +1762,8 @@ add address=220.113.150.0/23 list=telecom
 add address=220.154.0.0/20 list=telecom
 add address=220.154.16.0/22 list=telecom
 add address=220.154.128.0/21 list=telecom
-add address=220.154.136.0/22 list=telecom
+add address=220.154.136.0/24 list=telecom
+add address=220.154.139.0/24 list=telecom
 add address=220.154.140.0/24 list=telecom
 add address=220.154.144.0/24 list=telecom
 add address=220.160.0.0/12 list=telecom
