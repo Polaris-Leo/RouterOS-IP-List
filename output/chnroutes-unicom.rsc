@@ -2,6 +2,7 @@
 /ip firewall address-list
 add address=1.1.8.0/24 list=unicom
 add address=1.24.0.0/13 list=unicom
+add address=1.45.0.0/16 list=unicom
 add address=1.56.0.0/13 list=unicom
 add address=1.119.178.0/23 list=unicom
 add address=1.119.192.0/21 list=unicom
