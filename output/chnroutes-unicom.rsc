@@ -140,7 +140,7 @@ add address=45.125.56.0/22 list=unicom
 add address=45.127.144.0/21 list=unicom
 add address=45.249.212.0/22 list=unicom
 add address=45.250.32.0/21 list=unicom
-add address=45.250.180.0/23 list=unicom
+add address=45.250.180.0/22 list=unicom
 add address=45.250.188.0/24 list=unicom
 add address=45.252.104.0/22 list=unicom
 add address=45.253.24.0/22 list=unicom
@@ -401,8 +401,10 @@ add address=103.211.220.0/22 list=unicom
 add address=103.212.4.0/22 list=unicom
 add address=103.213.64.0/19 list=unicom
 add address=103.214.48.0/22 list=unicom
+add address=103.216.254.0/23 list=unicom
 add address=103.218.216.0/22 list=unicom
 add address=103.219.32.0/21 list=unicom
+add address=103.219.88.0/22 list=unicom
 add address=103.219.92.0/24 list=unicom
 add address=103.219.100.0/23 list=unicom
 add address=103.220.164.0/22 list=unicom
