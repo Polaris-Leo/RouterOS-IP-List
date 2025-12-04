@@ -679,6 +679,7 @@ add address=110.76.156.0/22 list=telecom
 add address=110.76.184.0/22 list=telecom
 add address=110.80.0.0/13 list=telecom
 add address=110.88.0.0/14 list=telecom
+add address=110.94.0.0/17 list=telecom
 add address=110.152.0.0/14 list=telecom
 add address=110.156.0.0/15 list=telecom
 add address=110.166.0.0/15 list=telecom
