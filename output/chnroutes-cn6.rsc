@@ -1331,7 +1331,7 @@ add address=2a0e:b107:178d::/48 list=cn6
 add address=2a0e:b107:178e::/48 list=cn6
 add address=2a0f:1cc5:10::/47 list=cn6
 add address=2a0f:1cc5:20::/44 list=cn6
-add address=2a0f:1cc5:100::/44 list=cn6
+add address=2a0f:1cc5:100::/43 list=cn6
 add address=2a0f:1cc5:600::/47 list=cn6
 add address=2a0f:1cc5:610::/48 list=cn6
 add address=2a0f:1cc5:900::/40 list=cn6
