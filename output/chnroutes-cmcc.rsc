@@ -68,9 +68,7 @@ add address=61.237.0.0/16 list=cmcc
 add address=69.235.184.0/21 list=cmcc
 add address=101.36.128.0/18 list=cmcc
 add address=101.36.192.0/19 list=cmcc
-add address=101.36.224.0/21 list=cmcc
-add address=101.36.233.0/24 list=cmcc
-add address=101.36.234.0/24 list=cmcc
+add address=101.36.224.0/20 list=cmcc
 add address=101.36.254.0/23 list=cmcc
 add address=101.125.130.0/24 list=cmcc
 add address=101.144.0.0/12 list=cmcc

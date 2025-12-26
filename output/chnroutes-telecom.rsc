@@ -1247,7 +1247,7 @@ add address=171.40.0.0/14 list=telecom
 add address=171.44.0.0/16 list=telecom
 add address=171.80.0.0/12 list=telecom
 add address=171.104.0.0/13 list=telecom
-add address=171.112.0.0/14 list=telecom
+add address=171.112.0.0/15 list=telecom
 add address=171.208.0.0/12 list=telecom
 add address=175.0.0.0/12 list=telecom
 add address=175.25.16.0/20 list=telecom
