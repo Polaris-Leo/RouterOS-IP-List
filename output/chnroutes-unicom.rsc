@@ -1005,6 +1005,10 @@ add address=202.127.40.0/21 list=unicom
 add address=202.127.48.0/23 list=unicom
 add address=202.130.224.0/20 list=unicom
 add address=202.130.240.0/21 list=unicom
+add address=202.136.208.0/21 list=unicom
+add address=202.136.218.0/24 list=unicom
+add address=202.136.220.0/24 list=unicom
+add address=202.136.222.0/23 list=unicom
 add address=202.136.255.0/24 list=unicom
 add address=202.168.160.0/19 list=unicom
 add address=202.170.128.0/19 list=unicom
@@ -1027,6 +1031,7 @@ add address=203.95.128.0/24 list=unicom
 add address=203.130.40.0/21 list=unicom
 add address=203.132.32.0/19 list=unicom
 add address=203.166.160.0/22 list=unicom
+add address=203.166.165.0/24 list=unicom
 add address=203.166.166.0/24 list=unicom
 add address=203.166.168.0/24 list=unicom
 add address=203.166.172.0/24 list=unicom
