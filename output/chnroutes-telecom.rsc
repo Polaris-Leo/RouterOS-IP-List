@@ -1346,6 +1346,7 @@ add address=198.208.112.0/23 list=telecom
 add address=199.244.144.0/24 list=telecom
 add address=202.38.132.0/23 list=telecom
 add address=202.38.134.0/24 list=telecom
+add address=202.46.232.0/22 list=telecom
 add address=202.47.104.0/21 list=telecom
 add address=202.55.0.0/19 list=telecom
 add address=202.57.196.0/22 list=telecom

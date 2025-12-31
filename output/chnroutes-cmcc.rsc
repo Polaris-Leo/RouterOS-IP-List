@@ -56,10 +56,7 @@ add address=61.236.248.0/24 list=cmcc
 add address=61.236.251.0/24 list=cmcc
 add address=61.237.0.0/16 list=cmcc
 add address=69.235.184.0/21 list=cmcc
-add address=101.36.128.0/18 list=cmcc
-add address=101.36.192.0/19 list=cmcc
-add address=101.36.224.0/20 list=cmcc
-add address=101.36.254.0/23 list=cmcc
+add address=101.36.128.0/17 list=cmcc
 add address=101.125.130.0/24 list=cmcc
 add address=101.144.0.0/12 list=cmcc
 add address=101.251.192.0/21 list=cmcc
@@ -171,9 +168,7 @@ add address=118.26.224.0/20 list=cmcc
 add address=118.30.0.0/16 list=cmcc
 add address=118.193.127.0/24 list=cmcc
 add address=118.195.0.0/17 list=cmcc
-add address=119.44.202.0/23 list=cmcc
-add address=119.44.204.0/23 list=cmcc
-add address=119.44.206.0/24 list=cmcc
+add address=119.44.205.0/24 list=cmcc
 add address=119.161.183.0/24 list=cmcc
 add address=120.132.120.0/21 list=cmcc
 add address=120.132.128.0/19 list=cmcc
@@ -244,7 +239,6 @@ add address=183.192.0.0/10 list=cmcc
 add address=192.140.209.0/24 list=cmcc
 add address=192.140.210.0/23 list=cmcc
 add address=192.140.212.0/22 list=cmcc
-add address=202.46.224.0/22 list=cmcc
 add address=202.123.120.0/22 list=cmcc
 add address=202.141.176.0/20 list=cmcc
 add address=203.76.240.0/22 list=cmcc
