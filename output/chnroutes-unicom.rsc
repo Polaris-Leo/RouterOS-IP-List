@@ -314,7 +314,6 @@ add address=103.53.208.0/24 list=unicom
 add address=103.53.211.0/24 list=unicom
 add address=103.56.60.0/22 list=unicom
 add address=103.59.124.0/22 list=unicom
-add address=103.59.164.0/22 list=unicom
 add address=103.60.236.0/22 list=unicom
 add address=103.61.153.0/24 list=unicom
 add address=103.61.154.0/23 list=unicom
