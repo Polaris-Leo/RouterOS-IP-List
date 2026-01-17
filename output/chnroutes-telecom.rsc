@@ -157,6 +157,7 @@ add address=45.249.212.0/22 list=telecom
 add address=45.250.40.0/22 list=telecom
 add address=45.250.180.0/23 list=telecom
 add address=45.250.184.0/22 list=telecom
+add address=45.251.0.0/23 list=telecom
 add address=45.251.8.0/22 list=telecom
 add address=45.251.20.0/22 list=telecom
 add address=45.251.88.0/21 list=telecom
