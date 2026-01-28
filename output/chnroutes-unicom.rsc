@@ -801,6 +801,7 @@ add address=123.103.64.0/18 list=unicom
 add address=123.108.88.0/24 list=unicom
 add address=123.108.208.0/22 list=unicom
 add address=123.108.212.0/23 list=unicom
+add address=123.108.220.0/22 list=unicom
 add address=123.112.0.0/12 list=unicom
 add address=123.128.0.0/13 list=unicom
 add address=123.138.0.0/15 list=unicom
