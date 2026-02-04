@@ -526,7 +526,6 @@ add address=113.213.0.0/18 list=unicom
 add address=113.213.64.0/19 list=unicom
 add address=113.213.96.0/20 list=unicom
 add address=113.224.0.0/12 list=unicom
-add address=114.28.135.0/24 list=unicom
 add address=114.28.248.0/21 list=unicom
 add address=114.66.80.0/23 list=unicom
 add address=114.66.236.0/22 list=unicom
