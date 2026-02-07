@@ -264,7 +264,7 @@ add address=101.251.252.0/22 list=unicom
 add address=101.254.99.0/24 list=unicom
 add address=101.254.100.0/22 list=unicom
 add address=103.2.108.0/24 list=unicom
-add address=103.3.96.0/21 list=unicom
+add address=103.3.96.0/22 list=unicom
 add address=103.3.112.0/20 list=unicom
 add address=103.3.136.0/21 list=unicom
 add address=103.3.152.0/21 list=unicom
