@@ -710,6 +710,7 @@ add address=81.173.18.0/23 list=cn
 add address=81.173.20.0/22 list=cn
 add address=81.173.28.0/24 list=cn
 add address=82.156.0.0/15 list=cn
+add address=85.149.220.0/24 list=cn
 add address=85.237.205.0/24 list=cn
 add address=94.191.0.0/17 list=cn
 add address=101.1.0.0/22 list=cn
@@ -3122,7 +3123,7 @@ add address=198.208.67.0/24 list=cn
 add address=198.208.112.0/23 list=cn
 add address=199.182.239.0/24 list=cn
 add address=199.244.144.0/24 list=cn
-add address=202.4.128.0/20 list=cn
+add address=202.4.128.0/19 list=cn
 add address=202.4.252.0/22 list=cn
 add address=202.6.202.0/23 list=cn
 add address=202.14.235.0/24 list=cn
