@@ -680,6 +680,7 @@ add address=118.194.48.0/21 list=unicom
 add address=118.194.240.0/21 list=unicom
 add address=118.199.0.0/16 list=unicom
 add address=118.212.0.0/16 list=unicom
+add address=118.244.160.0/19 list=unicom
 add address=118.247.0.0/16 list=unicom
 add address=119.4.0.0/14 list=unicom
 add address=119.32.0.0/15 list=unicom
