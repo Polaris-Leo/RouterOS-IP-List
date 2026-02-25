@@ -679,7 +679,6 @@ add address=118.191.12.0/24 list=unicom
 add address=118.194.32.0/21 list=unicom
 add address=118.194.48.0/21 list=unicom
 add address=118.194.240.0/21 list=unicom
-add address=118.199.0.0/16 list=unicom
 add address=118.212.0.0/16 list=unicom
 add address=118.244.128.0/18 list=unicom
 add address=118.244.240.0/20 list=unicom
