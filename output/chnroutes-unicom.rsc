@@ -645,7 +645,6 @@ add address=117.73.16.0/21 list=unicom
 add address=117.74.64.0/20 list=unicom
 add address=117.79.241.0/24 list=unicom
 add address=117.79.242.0/24 list=unicom
-add address=117.100.128.0/17 list=unicom
 add address=117.121.132.0/22 list=unicom
 add address=117.122.198.0/24 list=unicom
 add address=117.122.208.0/23 list=unicom
