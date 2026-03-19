@@ -213,7 +213,7 @@ add address=123.64.0.0/15 list=cmcc
 add address=123.66.0.0/16 list=cmcc
 add address=123.77.0.0/16 list=cmcc
 add address=123.82.0.0/17 list=cmcc
-add address=123.88.0.0/16 list=cmcc
+add address=123.88.0.0/15 list=cmcc
 add address=123.99.192.0/20 list=cmcc
 add address=123.103.14.0/24 list=cmcc
 add address=124.201.0.0/17 list=cmcc
