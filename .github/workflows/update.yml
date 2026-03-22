@@ -2,7 +2,7 @@ name: Update RouterOS IP Lists
 
 on:
   schedule:
-    - cron: "0 18 * * *"   # 每天 02:00（中国时间，UTC+8 = UTC 18 点）
+    - cron: "0 19 * * *"   # 每天 03:00（中国时间，UTC+8 = UTC 19 点）
   workflow_dispatch:       # 可手动触发
 
 permissions:
@@ -28,10 +28,6 @@ jobs:
       - name: Download IP list files
         run: |
           python scripts/fetch_ip_lists.py
-
-      - name: Generate RSC scripts
-        run: |
-          python scripts/generate_rsc.py
 
       - name: Generate RSC scripts
         run: |
