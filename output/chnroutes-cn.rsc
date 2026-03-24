@@ -363,6 +363,7 @@ add address=43.255.192.0/22 list=cn
 add address=43.255.200.0/22 list=cn
 add address=43.255.212.0/22 list=cn
 add address=43.255.224.0/21 list=cn
+add address=44.30.15.0/24 list=cn
 add address=44.30.28.0/24 list=cn
 add address=44.31.28.0/24 list=cn
 add address=44.31.42.0/24 list=cn
@@ -2863,7 +2864,7 @@ add address=160.20.18.0/23 list=cn
 add address=160.22.188.0/24 list=cn
 add address=160.22.244.0/23 list=cn
 add address=160.25.194.0/23 list=cn
-add address=160.30.148.0/23 list=cn
+add address=160.30.148.0/22 list=cn
 add address=160.30.230.0/23 list=cn
 add address=160.83.110.0/24 list=cn
 add address=160.191.0.0/24 list=cn
