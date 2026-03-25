@@ -567,7 +567,8 @@ add address=103.235.248.0/21 list=telecom
 add address=103.236.52.0/22 list=telecom
 add address=103.236.56.0/21 list=telecom
 add address=103.236.64.0/19 list=telecom
-add address=103.236.96.0/22 list=telecom
+add address=103.236.96.0/23 list=telecom
+add address=103.236.98.0/24 list=telecom
 add address=103.236.244.0/22 list=telecom
 add address=103.236.248.0/22 list=telecom
 add address=103.237.8.0/22 list=telecom
