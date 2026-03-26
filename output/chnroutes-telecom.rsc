@@ -235,7 +235,6 @@ add address=66.102.240.0/21 list=telecom
 add address=66.102.248.0/22 list=telecom
 add address=66.102.252.0/24 list=telecom
 add address=66.102.254.0/23 list=telecom
-add address=69.163.104.0/24 list=telecom
 add address=69.163.106.0/24 list=telecom
 add address=69.163.123.0/24 list=telecom
 add address=69.235.184.0/21 list=telecom
