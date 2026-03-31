@@ -1279,7 +1279,7 @@ add address=220.200.160.0/19 list=unicom
 add address=220.200.192.0/18 list=unicom
 add address=220.201.0.0/16 list=unicom
 add address=220.202.0.0/16 list=unicom
-add address=220.203.0.0/18 list=unicom
+add address=220.203.0.0/17 list=unicom
 add address=220.203.128.0/18 list=unicom
 add address=220.203.216.0/23 list=unicom
 add address=220.203.220.0/22 list=unicom
