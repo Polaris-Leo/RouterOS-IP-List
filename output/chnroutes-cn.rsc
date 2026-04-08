@@ -107,9 +107,7 @@ add address=27.152.0.0/13 list=cn
 add address=27.184.0.0/13 list=cn
 add address=27.192.0.0/11 list=cn
 add address=27.224.0.0/14 list=cn
-add address=31.56.66.0/24 list=cn
 add address=31.57.10.0/24 list=cn
-add address=31.57.248.0/24 list=cn
 add address=36.1.0.0/16 list=cn
 add address=36.4.0.0/14 list=cn
 add address=36.16.0.0/12 list=cn
@@ -1412,6 +1410,7 @@ add address=103.132.234.0/23 list=cn
 add address=103.133.128.0/23 list=cn
 add address=103.133.176.0/22 list=cn
 add address=103.135.160.0/22 list=cn
+add address=103.135.164.0/23 list=cn
 add address=103.135.192.0/23 list=cn
 add address=103.135.195.0/24 list=cn
 add address=103.135.196.0/22 list=cn
@@ -1483,7 +1482,6 @@ add address=103.163.46.0/23 list=cn
 add address=103.163.180.0/24 list=cn
 add address=103.164.32.0/23 list=cn
 add address=103.165.110.0/23 list=cn
-add address=103.166.52.0/23 list=cn
 add address=103.169.50.0/23 list=cn
 add address=103.169.62.0/23 list=cn
 add address=103.170.4.0/23 list=cn
