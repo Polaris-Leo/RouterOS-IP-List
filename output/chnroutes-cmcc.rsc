@@ -78,7 +78,6 @@ add address=103.35.104.0/22 list=cmcc
 add address=103.37.47.0/24 list=cmcc
 add address=103.37.72.0/24 list=cmcc
 add address=103.40.12.0/22 list=cmcc
-add address=103.40.192.0/23 list=cmcc
 add address=103.45.161.0/24 list=cmcc
 add address=103.45.162.0/23 list=cmcc
 add address=103.52.176.0/23 list=cmcc
@@ -260,7 +259,6 @@ add address=183.192.0.0/10 list=cmcc
 add address=192.140.209.0/24 list=cmcc
 add address=192.140.210.0/23 list=cmcc
 add address=192.140.212.0/22 list=cmcc
-add address=202.46.224.0/22 list=cmcc
 add address=202.123.120.0/22 list=cmcc
 add address=202.141.176.0/20 list=cmcc
 add address=203.76.240.0/22 list=cmcc
