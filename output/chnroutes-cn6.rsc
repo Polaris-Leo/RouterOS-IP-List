@@ -1454,7 +1454,7 @@ add address=2a0f:1cc5:1d11::/48 list=cn6
 add address=2a0f:1cc5:1d14::/48 list=cn6
 add address=2a0f:1cc5:2510::/44 list=cn6
 add address=2a0f:1cc5:2600::/42 list=cn6
-add address=2a0f:1cc5:2640::/44 list=cn6
+add address=2a0f:1cc5:2640::/43 list=cn6
 add address=2a0f:1cc5:2d01::/48 list=cn6
 add address=2a0f:1cc5:2d03::/48 list=cn6
 add address=2a0f:1cc6:b110::/48 list=cn6
