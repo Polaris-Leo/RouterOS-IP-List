@@ -1003,8 +1003,7 @@ add address=120.132.120.0/21 list=telecom
 add address=120.132.128.0/17 list=telecom
 add address=120.133.0.0/16 list=telecom
 add address=120.134.0.0/15 list=telecom
-add address=120.136.16.0/23 list=telecom
-add address=120.136.18.0/24 list=telecom
+add address=120.136.16.0/22 list=telecom
 add address=120.136.20.0/23 list=telecom
 add address=120.136.23.0/24 list=telecom
 add address=120.136.156.0/22 list=telecom
