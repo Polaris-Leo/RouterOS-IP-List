@@ -110,6 +110,7 @@ add address=43.250.200.0/22 list=unicom
 add address=43.250.244.0/22 list=unicom
 add address=43.251.4.0/22 list=unicom
 add address=43.251.36.0/22 list=unicom
+add address=43.251.232.0/22 list=unicom
 add address=43.254.8.0/22 list=unicom
 add address=43.254.24.0/24 list=unicom
 add address=43.254.44.0/22 list=unicom
