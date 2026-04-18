@@ -13,14 +13,12 @@ add address=42.157.192.0/21 list=cmcc
 add address=43.228.116.0/22 list=cmcc
 add address=43.231.32.0/22 list=cmcc
 add address=43.239.172.0/24 list=cmcc
-add address=43.240.0.0/24 list=cmcc
 add address=43.240.72.0/23 list=cmcc
 add address=43.241.49.0/24 list=cmcc
 add address=43.241.50.0/24 list=cmcc
 add address=43.243.12.0/22 list=cmcc
 add address=43.243.128.0/22 list=cmcc
 add address=43.247.88.0/22 list=cmcc
-add address=43.247.184.0/22 list=cmcc
 add address=43.248.96.0/21 list=cmcc
 add address=43.248.116.0/22 list=cmcc
 add address=43.248.128.0/20 list=cmcc
