@@ -92,7 +92,7 @@ add address=103.82.224.0/22 list=cmcc
 add address=103.83.72.0/22 list=cmcc
 add address=103.84.170.0/23 list=cmcc
 add address=103.85.84.0/22 list=cmcc
-add address=103.85.172.0/22 list=cmcc
+add address=103.85.174.0/23 list=cmcc
 add address=103.85.178.0/24 list=cmcc
 add address=103.87.180.0/22 list=cmcc
 add address=103.95.68.0/22 list=cmcc
