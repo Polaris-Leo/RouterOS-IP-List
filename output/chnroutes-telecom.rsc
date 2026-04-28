@@ -549,7 +549,6 @@ add address=103.222.176.0/21 list=telecom
 add address=103.222.216.0/22 list=telecom
 add address=103.223.132.0/22 list=telecom
 add address=103.223.144.0/20 list=telecom
-add address=103.226.59.0/24 list=telecom
 add address=103.227.76.0/22 list=telecom
 add address=103.227.80.0/22 list=telecom
 add address=103.227.122.0/23 list=telecom
