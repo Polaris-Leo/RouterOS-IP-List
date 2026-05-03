@@ -885,7 +885,6 @@ add address=140.210.192.0/19 list=unicom
 add address=140.210.224.0/20 list=unicom
 add address=144.36.146.0/23 list=unicom
 add address=144.48.64.0/22 list=unicom
-add address=145.6.0.0/16 list=unicom
 add address=146.196.68.0/22 list=unicom
 add address=146.196.116.0/22 list=unicom
 add address=150.129.136.0/22 list=unicom
