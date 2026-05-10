@@ -1100,7 +1100,6 @@ add address=124.112.0.0/13 list=telecom
 add address=124.126.0.0/15 list=telecom
 add address=124.172.0.0/15 list=telecom
 add address=124.193.0.0/16 list=telecom
-add address=124.202.128.0/19 list=telecom
 add address=124.203.176.0/20 list=telecom
 add address=124.206.0.0/16 list=telecom
 add address=124.224.0.0/12 list=telecom
