@@ -68,7 +68,6 @@ add address=202.106.125.0/24 list=cernet
 add address=202.106.126.0/24 list=cernet
 add address=202.112.0.0/13 list=cernet
 add address=202.120.0.0/15 list=cernet
-add address=202.127.216.0/21 list=cernet
 add address=202.127.224.0/19 list=cernet
 add address=202.179.240.0/20 list=cernet
 add address=202.192.0.0/12 list=cernet
