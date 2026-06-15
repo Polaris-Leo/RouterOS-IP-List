@@ -1022,7 +1022,7 @@ add address=203.93.128.0/19 list=unicom
 add address=203.93.160.0/20 list=unicom
 add address=203.93.208.0/20 list=unicom
 add address=203.93.224.0/19 list=unicom
-add address=203.95.128.0/24 list=unicom
+add address=203.95.128.0/23 list=unicom
 add address=203.130.40.0/21 list=unicom
 add address=203.132.32.0/19 list=unicom
 add address=203.166.160.0/22 list=unicom
