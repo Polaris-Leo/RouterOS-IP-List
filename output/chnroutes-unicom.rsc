@@ -446,6 +446,7 @@ add address=103.248.224.0/22 list=unicom
 add address=103.249.52.0/22 list=unicom
 add address=103.250.32.0/22 list=unicom
 add address=103.250.104.0/22 list=unicom
+add address=103.250.124.0/22 list=unicom
 add address=103.250.192.0/22 list=unicom
 add address=103.250.216.0/22 list=unicom
 add address=103.250.248.0/22 list=unicom
