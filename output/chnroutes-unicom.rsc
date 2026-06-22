@@ -953,6 +953,7 @@ add address=182.175.240.0/22 list=unicom
 add address=183.92.0.0/14 list=unicom
 add address=183.184.0.0/13 list=unicom
 add address=192.163.11.0/24 list=unicom
+add address=194.138.203.0/24 list=unicom
 add address=202.4.252.0/22 list=unicom
 add address=202.14.235.0/24 list=unicom
 add address=202.14.236.0/23 list=unicom
