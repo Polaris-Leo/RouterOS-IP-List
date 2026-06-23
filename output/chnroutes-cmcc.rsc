@@ -281,7 +281,6 @@ add address=218.98.111.0/24 list=cmcc
 add address=218.98.112.0/23 list=cmcc
 add address=218.200.0.0/13 list=cmcc
 add address=218.245.0.0/21 list=cmcc
-add address=218.246.16.0/20 list=cmcc
 add address=219.83.160.0/21 list=cmcc
 add address=221.122.0.0/19 list=cmcc
 add address=221.122.32.0/20 list=cmcc
