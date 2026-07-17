@@ -986,6 +986,7 @@ add address=120.31.144.0/24 list=telecom
 add address=120.32.0.0/13 list=telecom
 add address=120.40.0.0/14 list=telecom
 add address=120.44.0.0/16 list=telecom
+add address=120.49.192.0/22 list=telecom
 add address=120.49.200.0/21 list=telecom
 add address=120.49.208.0/21 list=telecom
 add address=120.68.0.0/14 list=telecom
