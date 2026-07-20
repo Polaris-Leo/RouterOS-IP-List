@@ -592,14 +592,14 @@ add address=2406:840:e304::/48 list=cn6
 add address=2406:840:e306::/48 list=cn6
 add address=2406:840:e330::/44 list=cn6
 add address=2406:840:e600::/44 list=cn6
-add address=2406:840:e620::/47 list=cn6
+add address=2406:840:e621::/48 list=cn6
 add address=2406:840:e80f::/48 list=cn6
-add address=2406:840:eb01::/48 list=cn6
-add address=2406:840:eb02::/47 list=cn6
+add address=2406:840:eb00::/46 list=cn6
 add address=2406:840:eb04::/47 list=cn6
 add address=2406:840:eb07::/48 list=cn6
 add address=2406:840:eb08::/48 list=cn6
 add address=2406:840:eb0b::/48 list=cn6
+add address=2406:840:eb0f::/48 list=cn6
 add address=2406:840:eb80::/42 list=cn6
 add address=2406:840:ee40::/47 list=cn6
 add address=2406:840:ee44::/48 list=cn6
