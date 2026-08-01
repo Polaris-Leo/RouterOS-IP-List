@@ -95,6 +95,7 @@ add address=27.184.0.0/13 list=cn
 add address=27.192.0.0/11 list=cn
 add address=27.224.0.0/14 list=cn
 add address=31.56.124.0/24 list=cn
+add address=31.57.0.0/24 list=cn
 add address=31.77.184.0/22 list=cn
 add address=31.77.215.0/24 list=cn
 add address=36.1.0.0/16 list=cn
@@ -468,7 +469,6 @@ add address=45.9.11.0/24 list=cn
 add address=45.12.82.0/24 list=cn
 add address=45.40.192.0/18 list=cn
 add address=45.65.20.0/22 list=cn
-add address=45.65.24.0/22 list=cn
 add address=45.82.239.0/24 list=cn
 add address=45.86.73.0/24 list=cn
 add address=45.112.232.0/22 list=cn
@@ -779,6 +779,7 @@ add address=66.102.240.0/21 list=cn
 add address=66.102.248.0/22 list=cn
 add address=66.102.252.0/24 list=cn
 add address=66.102.254.0/23 list=cn
+add address=66.117.159.0/24 list=cn
 add address=68.79.0.0/18 list=cn
 add address=69.163.104.0/24 list=cn
 add address=69.163.106.0/24 list=cn
@@ -795,6 +796,7 @@ add address=78.105.182.0/23 list=cn
 add address=79.133.176.0/24 list=cn
 add address=79.176.77.0/24 list=cn
 add address=79.176.213.0/24 list=cn
+add address=79.176.227.0/24 list=cn
 add address=79.182.45.0/24 list=cn
 add address=81.68.0.0/14 list=cn
 add address=81.173.18.0/23 list=cn
@@ -804,10 +806,13 @@ add address=82.22.30.0/23 list=cn
 add address=82.38.7.0/24 list=cn
 add address=82.108.198.0/23 list=cn
 add address=82.109.96.0/23 list=cn
+add address=82.109.172.0/24 list=cn
 add address=82.110.234.0/23 list=cn
 add address=82.139.229.0/24 list=cn
 add address=82.156.0.0/15 list=cn
+add address=83.245.71.0/24 list=cn
 add address=85.239.154.0/24 list=cn
+add address=87.76.149.0/24 list=cn
 add address=87.76.221.0/24 list=cn
 add address=87.76.222.0/24 list=cn
 add address=92.118.189.0/24 list=cn
@@ -904,9 +909,7 @@ add address=101.237.40.0/24 list=cn
 add address=101.237.128.0/20 list=cn
 add address=101.240.0.0/14 list=cn
 add address=101.245.0.0/17 list=cn
-add address=101.245.128.0/20 list=cn
-add address=101.245.144.0/22 list=cn
-add address=101.245.152.0/21 list=cn
+add address=101.245.128.0/19 list=cn
 add address=101.245.160.0/20 list=cn
 add address=101.246.172.0/22 list=cn
 add address=101.246.176.0/20 list=cn
@@ -1638,11 +1641,13 @@ add address=106.112.0.0/12 list=cn
 add address=106.224.0.0/14 list=cn
 add address=106.228.0.0/15 list=cn
 add address=106.230.0.0/16 list=cn
+add address=107.149.9.0/24 list=cn
 add address=107.149.27.0/24 list=cn
 add address=108.165.168.0/24 list=cn
 add address=108.165.240.0/24 list=cn
 add address=109.66.24.0/24 list=cn
 add address=109.66.143.0/24 list=cn
+add address=109.176.134.0/24 list=cn
 add address=109.244.0.0/16 list=cn
 add address=110.6.0.0/15 list=cn
 add address=110.16.0.0/14 list=cn
@@ -2197,7 +2202,10 @@ add address=118.193.96.0/19 list=cn
 add address=118.194.32.0/19 list=cn
 add address=118.194.134.0/23 list=cn
 add address=118.194.164.0/22 list=cn
-add address=118.194.240.0/21 list=cn
+add address=118.194.240.0/24 list=cn
+add address=118.194.242.0/23 list=cn
+add address=118.194.244.0/24 list=cn
+add address=118.194.246.0/23 list=cn
 add address=118.195.0.0/16 list=cn
 add address=118.196.0.0/16 list=cn
 add address=118.197.0.0/18 list=cn
@@ -2727,6 +2735,7 @@ add address=125.254.176.0/21 list=cn
 add address=125.254.184.0/22 list=cn
 add address=125.254.188.0/23 list=cn
 add address=125.254.190.0/24 list=cn
+add address=128.14.116.0/24 list=cn
 add address=128.108.0.0/16 list=cn
 add address=129.28.0.0/16 list=cn
 add address=129.204.0.0/16 list=cn
@@ -2859,6 +2868,9 @@ add address=154.72.42.0/24 list=cn
 add address=154.72.44.0/24 list=cn
 add address=154.72.47.0/24 list=cn
 add address=154.91.158.0/23 list=cn
+add address=154.94.60.0/24 list=cn
+add address=154.198.10.0/24 list=cn
+add address=154.208.67.0/24 list=cn
 add address=155.102.0.0/23 list=cn
 add address=155.102.2.0/24 list=cn
 add address=155.102.4.0/23 list=cn
@@ -2881,9 +2893,7 @@ add address=155.102.64.0/23 list=cn
 add address=155.102.67.0/24 list=cn
 add address=155.102.68.0/23 list=cn
 add address=155.102.70.0/24 list=cn
-add address=155.102.72.0/22 list=cn
-add address=155.102.76.0/24 list=cn
-add address=155.102.79.0/24 list=cn
+add address=155.102.72.0/21 list=cn
 add address=155.102.82.0/23 list=cn
 add address=155.102.84.0/23 list=cn
 add address=155.102.86.0/24 list=cn
@@ -2920,6 +2930,7 @@ add address=155.102.220.0/23 list=cn
 add address=155.102.223.0/24 list=cn
 add address=155.102.224.0/19 list=cn
 add address=155.117.138.0/24 list=cn
+add address=155.117.222.0/24 list=cn
 add address=155.126.176.0/23 list=cn
 add address=156.59.108.0/24 list=cn
 add address=156.107.160.0/23 list=cn
@@ -2942,6 +2953,7 @@ add address=157.119.252.0/22 list=cn
 add address=157.122.0.0/16 list=cn
 add address=157.148.0.0/16 list=cn
 add address=157.156.0.0/16 list=cn
+add address=157.254.130.0/24 list=cn
 add address=157.254.231.0/24 list=cn
 add address=157.255.0.0/16 list=cn
 add address=158.140.252.0/23 list=cn
@@ -2975,6 +2987,7 @@ add address=162.141.140.0/24 list=cn
 add address=163.0.0.0/16 list=cn
 add address=163.5.53.0/24 list=cn
 add address=163.5.79.0/24 list=cn
+add address=163.5.97.0/24 list=cn
 add address=163.5.166.0/24 list=cn
 add address=163.47.4.0/22 list=cn
 add address=163.53.44.0/22 list=cn
@@ -2996,10 +3009,7 @@ add address=163.181.16.0/22 list=cn
 add address=163.181.22.0/23 list=cn
 add address=163.181.25.0/24 list=cn
 add address=163.181.26.0/24 list=cn
-add address=163.181.32.0/21 list=cn
-add address=163.181.40.0/24 list=cn
-add address=163.181.42.0/23 list=cn
-add address=163.181.44.0/22 list=cn
+add address=163.181.32.0/20 list=cn
 add address=163.181.48.0/21 list=cn
 add address=163.181.56.0/24 list=cn
 add address=163.181.58.0/23 list=cn
@@ -3048,9 +3058,7 @@ add address=163.181.190.0/23 list=cn
 add address=163.181.192.0/23 list=cn
 add address=163.181.196.0/22 list=cn
 add address=163.181.200.0/21 list=cn
-add address=163.181.209.0/24 list=cn
-add address=163.181.210.0/23 list=cn
-add address=163.181.212.0/22 list=cn
+add address=163.181.208.0/21 list=cn
 add address=163.181.216.0/24 list=cn
 add address=163.181.218.0/23 list=cn
 add address=163.181.220.0/22 list=cn
@@ -3081,6 +3089,7 @@ add address=168.160.152.0/24 list=cn
 add address=168.160.158.0/23 list=cn
 add address=168.160.160.0/21 list=cn
 add address=168.160.168.0/24 list=cn
+add address=168.222.18.0/24 list=cn
 add address=170.33.98.0/24 list=cn
 add address=171.8.0.0/13 list=cn
 add address=171.34.0.0/15 list=cn
@@ -3246,6 +3255,7 @@ add address=192.140.208.0/21 list=cn
 add address=192.144.128.0/17 list=cn
 add address=192.163.11.0/24 list=cn
 add address=192.232.97.0/24 list=cn
+add address=193.39.10.0/24 list=cn
 add address=193.112.0.0/16 list=cn
 add address=193.233.49.0/24 list=cn
 add address=194.127.229.0/24 list=cn
@@ -3968,8 +3978,10 @@ add address=211.167.176.0/20 list=cn
 add address=211.167.224.0/19 list=cn
 add address=212.64.0.0/17 list=cn
 add address=212.129.128.0/17 list=cn
+add address=212.189.57.0/24 list=cn
 add address=213.189.17.0/24 list=cn
 add address=213.214.110.0/24 list=cn
+add address=213.218.216.0/24 list=cn
 add address=218.0.0.0/11 list=cn
 add address=218.56.0.0/13 list=cn
 add address=218.64.0.0/11 list=cn
