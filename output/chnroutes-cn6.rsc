@@ -1711,6 +1711,10 @@ add address=2a14:7586:6110::/48 list=cn6
 add address=2a14:7586:6113::/48 list=cn6
 add address=2a14:7586:6300::/44 list=cn6
 add address=2a14:7586:6500::/48 list=cn6
+add address=2a14:7dc0:510::/47 list=cn6
+add address=2a14:7dc0:512::/48 list=cn6
+add address=2a14:7dc0:515::/48 list=cn6
+add address=2a14:7dc0:516::/47 list=cn6
 add address=2a14:ae00:50::/44 list=cn6
 add address=2c0f:f7a8:8011::/48 list=cn6
 add address=2c0f:f7a8:8050::/48 list=cn6
