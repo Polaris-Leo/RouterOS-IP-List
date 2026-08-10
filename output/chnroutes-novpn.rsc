@@ -477,7 +477,6 @@ add address=45.65.20.0/22 list=novpn
 add address=45.82.239.0/24 list=novpn
 add address=45.86.73.0/24 list=novpn
 add address=45.89.104.0/24 list=novpn
-add address=45.95.207.0/24 list=novpn
 add address=45.112.232.0/22 list=novpn
 add address=45.113.20.0/22 list=novpn
 add address=45.113.24.0/22 list=novpn
