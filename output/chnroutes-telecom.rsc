@@ -272,6 +272,7 @@ add address=101.106.0.0/19 list=telecom
 add address=101.124.0.0/20 list=telecom
 add address=101.124.19.0/24 list=telecom
 add address=101.124.22.0/24 list=telecom
+add address=101.124.24.0/21 list=telecom
 add address=101.124.62.0/24 list=telecom
 add address=101.125.252.0/22 list=telecom
 add address=101.128.0.0/22 list=telecom

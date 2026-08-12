@@ -1185,6 +1185,7 @@ add address=218.60.0.0/15 list=unicom
 add address=218.62.0.0/17 list=unicom
 add address=218.67.128.0/17 list=unicom
 add address=218.68.0.0/15 list=unicom
+add address=218.96.70.0/23 list=unicom
 add address=218.96.127.0/24 list=unicom
 add address=218.96.128.0/24 list=unicom
 add address=218.98.0.0/18 list=unicom
