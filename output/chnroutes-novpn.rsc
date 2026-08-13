@@ -2923,6 +2923,7 @@ add address=155.102.70.0/24 list=novpn
 add address=155.102.72.0/22 list=novpn
 add address=155.102.76.0/23 list=novpn
 add address=155.102.78.0/24 list=novpn
+add address=155.102.80.0/24 list=novpn
 add address=155.102.82.0/23 list=novpn
 add address=155.102.84.0/23 list=novpn
 add address=155.102.86.0/24 list=novpn
@@ -3719,6 +3720,7 @@ add address=203.195.128.0/17 list=novpn
 add address=203.196.0.0/21 list=novpn
 add address=203.202.236.0/23 list=novpn
 add address=203.205.88.0/22 list=novpn
+add address=203.205.92.0/24 list=novpn
 add address=203.205.95.0/24 list=novpn
 add address=203.207.64.0/19 list=novpn
 add address=203.207.96.0/21 list=novpn
