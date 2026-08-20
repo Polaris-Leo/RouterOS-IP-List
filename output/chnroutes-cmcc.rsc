@@ -280,6 +280,7 @@ add address=211.99.216.0/24 list=cmcc
 add address=211.101.199.0/24 list=cmcc
 add address=211.103.0.0/17 list=cmcc
 add address=211.136.0.0/13 list=cmcc
+add address=211.148.224.0/19 list=cmcc
 add address=211.151.4.0/23 list=cmcc
 add address=211.151.32.0/19 list=cmcc
 add address=211.151.64.0/18 list=cmcc
