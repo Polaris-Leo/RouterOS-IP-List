@@ -61,6 +61,7 @@ add address=183.172.0.0/14 list=cernet
 add address=202.4.128.0/19 list=cernet
 add address=202.38.2.0/23 list=cernet
 add address=202.38.64.0/18 list=cernet
+add address=202.38.135.0/24 list=cernet
 add address=202.38.140.0/23 list=cernet
 add address=202.38.184.0/21 list=cernet
 add address=202.38.192.0/18 list=cernet
