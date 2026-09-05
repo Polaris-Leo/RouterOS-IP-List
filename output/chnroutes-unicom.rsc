@@ -220,6 +220,7 @@ add address=101.72.0.0/14 list=unicom
 add address=101.124.0.0/20 list=unicom
 add address=101.124.19.0/24 list=unicom
 add address=101.124.22.0/24 list=unicom
+add address=101.124.24.0/21 list=unicom
 add address=101.124.62.0/24 list=unicom
 add address=101.125.0.0/22 list=unicom
 add address=101.125.4.0/23 list=unicom
@@ -681,6 +682,7 @@ add address=118.247.0.0/16 list=unicom
 add address=119.4.0.0/14 list=unicom
 add address=119.36.0.0/16 list=unicom
 add address=119.38.0.0/21 list=unicom
+add address=119.38.224.0/24 list=unicom
 add address=119.39.0.0/16 list=unicom
 add address=119.48.0.0/13 list=unicom
 add address=119.62.0.0/16 list=unicom
