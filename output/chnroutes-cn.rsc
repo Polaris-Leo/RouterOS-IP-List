@@ -539,7 +539,6 @@ add address=45.251.88.0/21 list=cn
 add address=45.251.96.0/21 list=cn
 add address=45.251.120.0/22 list=cn
 add address=45.252.0.0/22 list=cn
-add address=45.252.48.0/22 list=cn
 add address=45.252.104.0/22 list=cn
 add address=45.253.24.0/22 list=cn
 add address=45.253.32.0/24 list=cn
@@ -738,7 +737,6 @@ add address=59.153.32.0/22 list=cn
 add address=59.153.92.0/22 list=cn
 add address=59.153.164.0/22 list=cn
 add address=59.153.168.0/24 list=cn
-add address=59.153.172.0/24 list=cn
 add address=59.172.0.0/14 list=cn
 add address=59.191.0.0/17 list=cn
 add address=59.252.0.0/16 list=cn
@@ -1373,9 +1371,6 @@ add address=103.197.0.0/22 list=cn
 add address=103.197.228.0/22 list=cn
 add address=103.198.60.0/22 list=cn
 add address=103.198.124.0/22 list=cn
-add address=103.198.216.0/21 list=cn
-add address=103.198.224.0/20 list=cn
-add address=103.198.244.0/22 list=cn
 add address=103.200.136.0/21 list=cn
 add address=103.200.144.0/21 list=cn
 add address=103.200.220.0/22 list=cn
@@ -2887,15 +2882,14 @@ add address=155.102.43.0/24 list=cn
 add address=155.102.44.0/22 list=cn
 add address=155.102.48.0/20 list=cn
 add address=155.102.64.0/23 list=cn
-add address=155.102.67.0/24 list=cn
-add address=155.102.68.0/24 list=cn
+add address=155.102.69.0/24 list=cn
 add address=155.102.70.0/24 list=cn
 add address=155.102.72.0/21 list=cn
 add address=155.102.80.0/24 list=cn
 add address=155.102.82.0/23 list=cn
-add address=155.102.84.0/24 list=cn
-add address=155.102.86.0/23 list=cn
+add address=155.102.84.0/22 list=cn
 add address=155.102.91.0/24 list=cn
+add address=155.102.92.0/24 list=cn
 add address=155.102.94.0/24 list=cn
 add address=155.102.98.0/23 list=cn
 add address=155.102.100.0/23 list=cn
@@ -3319,7 +3313,7 @@ add address=202.80.192.0/22 list=cn
 add address=202.81.176.0/20 list=cn
 add address=202.84.17.0/24 list=cn
 add address=202.85.208.0/20 list=cn
-add address=202.89.96.0/22 list=cn
+add address=202.89.96.0/24 list=cn
 add address=202.89.232.0/21 list=cn
 add address=202.90.20.0/22 list=cn
 add address=202.90.96.0/20 list=cn

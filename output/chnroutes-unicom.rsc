@@ -172,7 +172,6 @@ add address=59.81.104.0/22 list=unicom
 add address=59.83.192.0/19 list=unicom
 add address=59.83.224.0/21 list=unicom
 add address=59.83.232.0/22 list=unicom
-add address=59.153.172.0/24 list=unicom
 add address=60.0.0.0/11 list=unicom
 add address=60.194.0.0/15 list=unicom
 add address=60.206.0.0/15 list=unicom
