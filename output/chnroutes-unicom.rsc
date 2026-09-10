@@ -537,6 +537,7 @@ add address=114.67.156.0/24 list=unicom
 add address=114.67.159.0/24 list=unicom
 add address=114.67.160.0/19 list=unicom
 add address=114.67.192.0/18 list=unicom
+add address=114.110.112.0/22 list=unicom
 add address=114.112.64.0/24 list=unicom
 add address=114.112.66.0/24 list=unicom
 add address=114.112.70.0/24 list=unicom
