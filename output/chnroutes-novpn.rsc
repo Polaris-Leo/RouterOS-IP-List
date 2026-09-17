@@ -960,7 +960,6 @@ add address=103.9.8.0/22 list=novpn
 add address=103.9.252.0/22 list=novpn
 add address=103.10.0.0/22 list=novpn
 add address=103.10.84.0/22 list=novpn
-add address=103.12.98.0/23 list=novpn
 add address=103.12.184.0/22 list=novpn
 add address=103.12.232.0/22 list=novpn
 add address=103.13.244.0/22 list=novpn
