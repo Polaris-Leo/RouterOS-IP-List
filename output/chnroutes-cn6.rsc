@@ -403,10 +403,7 @@ add address=2404:2280:25c::/48 list=cn6
 add address=2404:2280:265::/48 list=cn6
 add address=2404:2280:266::/47 list=cn6
 add address=2404:2280:268::/45 list=cn6
-add address=2404:2280:270::/45 list=cn6
-add address=2404:2280:278::/47 list=cn6
-add address=2404:2280:27b::/48 list=cn6
-add address=2404:2280:27c::/46 list=cn6
+add address=2404:2280:270::/44 list=cn6
 add address=2404:2280:282::/47 list=cn6
 add address=2404:2280:284::/47 list=cn6
 add address=2404:2280:288::/46 list=cn6
