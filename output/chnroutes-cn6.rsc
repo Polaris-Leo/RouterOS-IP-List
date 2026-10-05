@@ -1643,6 +1643,7 @@ add address=2a14:7586:6104::/48 list=cn6
 add address=2a14:7586:6106::/47 list=cn6
 add address=2a14:7586:6108::/48 list=cn6
 add address=2a14:7586:6110::/48 list=cn6
+add address=2a14:7586:6113::/48 list=cn6
 add address=2a14:7586:6115::/48 list=cn6
 add address=2a14:7586:6300::/44 list=cn6
 add address=2c0f:f7a8:8011::/48 list=cn6
