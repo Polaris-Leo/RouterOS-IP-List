@@ -1566,7 +1566,7 @@ add address=2a0f:4680::/29 list=cn6
 add address=2a0f:6280:1400::/43 list=cn6
 add address=2a0f:6280:1430::/44 list=cn6
 add address=2a0f:6280:1440::/42 list=cn6
-add address=2a0f:6280:1480::/44 list=cn6
+add address=2a0f:6280:1480::/43 list=cn6
 add address=2a0f:6281::/32 list=cn6
 add address=2a0f:6284:4c00::/44 list=cn6
 add address=2a0f:6284:4c20::/44 list=cn6
