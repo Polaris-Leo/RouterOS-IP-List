@@ -520,6 +520,7 @@ add address=45.126.120.0/22 list=cn
 add address=45.127.129.0/24 list=cn
 add address=45.127.144.0/21 list=cn
 add address=45.137.97.0/24 list=cn
+add address=45.140.144.0/24 list=cn
 add address=45.146.82.0/24 list=cn
 add address=45.248.8.0/22 list=cn
 add address=45.248.108.0/23 list=cn
@@ -805,6 +806,7 @@ add address=72.244.228.0/24 list=cn
 add address=74.1.16.0/24 list=cn
 add address=78.105.182.0/23 list=cn
 add address=79.133.176.0/24 list=cn
+add address=79.175.67.0/24 list=cn
 add address=79.175.118.0/24 list=cn
 add address=81.68.0.0/14 list=cn
 add address=81.173.18.0/23 list=cn
