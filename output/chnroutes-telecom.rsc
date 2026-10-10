@@ -1306,7 +1306,6 @@ add address=183.91.40.0/21 list=telecom
 add address=183.91.48.0/21 list=telecom
 add address=183.91.56.0/24 list=telecom
 add address=183.91.61.0/24 list=telecom
-add address=183.91.63.0/24 list=telecom
 add address=183.128.0.0/11 list=telecom
 add address=183.160.0.0/13 list=telecom
 add address=185.75.173.0/24 list=telecom
