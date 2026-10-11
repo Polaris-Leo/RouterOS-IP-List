@@ -574,7 +574,7 @@ add address=2406:840:5860::/47 list=cn6
 add address=2406:840:5880::/47 list=cn6
 add address=2406:840:5c00::/47 list=cn6
 add address=2406:840:8100::/40 list=cn6
-add address=2406:840:9110::/48 list=cn6
+add address=2406:840:9110::/47 list=cn6
 add address=2406:840:9178::/48 list=cn6
 add address=2406:840:9200::/40 list=cn6
 add address=2406:840:9700::/40 list=cn6
@@ -658,7 +658,7 @@ add address=2406:840:fd9f::/48 list=cn6
 add address=2406:840:fda0::/48 list=cn6
 add address=2406:840:fdb0::/48 list=cn6
 add address=2406:840:fdc0::/48 list=cn6
-add address=2406:840:fe50::/47 list=cn6
+add address=2406:840:fe50::/48 list=cn6
 add address=2406:840:fe90::/46 list=cn6
 add address=2406:840:fe94::/48 list=cn6
 add address=2406:840:fe96::/47 list=cn6
@@ -1392,6 +1392,7 @@ add address=240d:c000:f1e3::/48 list=cn6
 add address=240d:c000:f1e4::/48 list=cn6
 add address=240d:c000:f1ef::/48 list=cn6
 add address=240e::/20 list=cn6
+add address=2602:f2dc:9d::/48 list=cn6
 add address=2602:f46d:1::/48 list=cn6
 add address=2602:f486:f0::/48 list=cn6
 add address=2602:f92a:1300::/47 list=cn6
@@ -1516,6 +1517,7 @@ add address=2a0f:1cc5:140::/44 list=cn6
 add address=2a0f:1cc5:170::/44 list=cn6
 add address=2a0f:1cc5:600::/47 list=cn6
 add address=2a0f:1cc5:603::/48 list=cn6
+add address=2a0f:1cc5:620::/48 list=cn6
 add address=2a0f:1cc5:642::/48 list=cn6
 add address=2a0f:1cc5:644::/48 list=cn6
 add address=2a0f:1cc5:661::/48 list=cn6
@@ -1542,11 +1544,12 @@ add address=2a0f:1cc5:3720::/48 list=cn6
 add address=2a0f:1cc5:4300::/40 list=cn6
 add address=2a0f:1cc5:4508::/45 list=cn6
 add address=2a0f:1cc5:4510::/44 list=cn6
+add address=2a0f:1cc5:4520::/46 list=cn6
 add address=2a0f:1cc5:4560::/44 list=cn6
 add address=2a0f:1cc5:45ff::/48 list=cn6
 add address=2a0f:1cc5:4600::/39 list=cn6
 add address=2a0f:1cc5:49f0::/48 list=cn6
-add address=2a0f:1cc5:57fd::/48 list=cn6
+add address=2a0f:1cc5:57fc::/47 list=cn6
 add address=2a0f:1cc5:57ff::/48 list=cn6
 add address=2a0f:1cc6:b110::/48 list=cn6
 add address=2a0f:1cc6:b210::/47 list=cn6
