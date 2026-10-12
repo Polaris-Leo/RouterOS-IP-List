@@ -1723,7 +1723,7 @@ add address=219.238.232.0/21 list=telecom
 add address=219.239.88.0/21 list=telecom
 add address=220.113.96.0/21 list=telecom
 add address=220.154.0.0/20 list=telecom
-add address=220.154.16.0/22 list=telecom
+add address=220.154.16.0/21 list=telecom
 add address=220.154.64.0/20 list=telecom
 add address=220.154.80.0/22 list=telecom
 add address=220.154.116.0/23 list=telecom
