@@ -116,7 +116,6 @@ add address=2401:1200::/48 list=cn6
 add address=2401:1320::/32 list=cn6
 add address=2401:18ef:1000::/44 list=cn6
 add address=2401:1d40::/32 list=cn6
-add address=2401:2780::/32 list=cn6
 add address=2401:2a00:f000::/43 list=cn6
 add address=2401:2e00::/32 list=cn6
 add address=2401:3480::/36 list=cn6
@@ -574,6 +573,7 @@ add address=2406:840:5880::/47 list=cn6
 add address=2406:840:5c00::/47 list=cn6
 add address=2406:840:8100::/40 list=cn6
 add address=2406:840:9110::/47 list=cn6
+add address=2406:840:9112::/48 list=cn6
 add address=2406:840:9178::/48 list=cn6
 add address=2406:840:9200::/40 list=cn6
 add address=2406:840:9680::/44 list=cn6
@@ -1277,6 +1277,7 @@ add address=2408:8a27:4000::/35 list=cn6
 add address=2409:2000::/31 list=cn6
 add address=2409:2002::/32 list=cn6
 add address=2409:2003::/47 list=cn6
+add address=2409:2003:10::/44 list=cn6
 add address=2409:27fa::/48 list=cn6
 add address=2409:27fa:f000::/48 list=cn6
 add address=2409:27fb::/48 list=cn6
@@ -1481,7 +1482,6 @@ add address=2a0a:d681:e000::/40 list=cn6
 add address=2a0a:d682:d000::/36 list=cn6
 add address=2a0a:d682:e000::/35 list=cn6
 add address=2a0a:d685:1e0::/48 list=cn6
-add address=2a0a:d685:1fd::/48 list=cn6
 add address=2a0a:d685:1ff::/48 list=cn6
 add address=2a0a:d685:300::/40 list=cn6
 add address=2a0a:d687:f001::/48 list=cn6
@@ -1558,6 +1558,7 @@ add address=2a0f:1cc5:4560::/44 list=cn6
 add address=2a0f:1cc5:45ff::/48 list=cn6
 add address=2a0f:1cc5:4600::/39 list=cn6
 add address=2a0f:1cc5:49f0::/48 list=cn6
+add address=2a0f:1cc5:57fb::/48 list=cn6
 add address=2a0f:1cc5:57fc::/47 list=cn6
 add address=2a0f:1cc5:57ff::/48 list=cn6
 add address=2a0f:1cc6:b110::/48 list=cn6
@@ -1626,7 +1627,6 @@ add address=2a14:7580:d42::/47 list=cn6
 add address=2a14:7580:ff64::/48 list=cn6
 add address=2a14:7580:ffee::/48 list=cn6
 add address=2a14:7580:fff3::/48 list=cn6
-add address=2a14:7580:fffa::/48 list=cn6
 add address=2a14:7581:fe1::/48 list=cn6
 add address=2a14:7581:3810::/48 list=cn6
 add address=2a14:7582:7000::/36 list=cn6
