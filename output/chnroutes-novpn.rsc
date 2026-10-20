@@ -279,8 +279,7 @@ add address=43.109.199.0/24 list=novpn
 add address=43.109.200.0/23 list=novpn
 add address=43.109.202.0/24 list=novpn
 add address=43.109.206.0/23 list=novpn
-add address=43.109.208.0/23 list=novpn
-add address=43.109.211.0/24 list=novpn
+add address=43.109.208.0/22 list=novpn
 add address=43.109.214.0/23 list=novpn
 add address=43.109.216.0/21 list=novpn
 add address=43.109.224.0/23 list=novpn
