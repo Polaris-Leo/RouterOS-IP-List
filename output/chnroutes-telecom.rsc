@@ -324,7 +324,11 @@ add address=101.254.98.0/24 list=telecom
 add address=101.254.100.0/22 list=telecom
 add address=101.254.104.0/21 list=telecom
 add address=101.254.112.0/20 list=telecom
-add address=101.254.128.0/17 list=telecom
+add address=101.254.128.0/18 list=telecom
+add address=101.254.196.0/22 list=telecom
+add address=101.254.200.0/21 list=telecom
+add address=101.254.208.0/20 list=telecom
+add address=101.254.224.0/19 list=telecom
 add address=103.1.8.0/22 list=telecom
 add address=103.2.108.0/22 list=telecom
 add address=103.5.52.0/24 list=telecom
@@ -1110,6 +1114,8 @@ add address=123.196.112.0/20 list=telecom
 add address=123.242.192.0/21 list=telecom
 add address=123.244.0.0/14 list=telecom
 add address=123.254.96.0/21 list=telecom
+add address=124.14.6.0/24 list=telecom
+add address=124.14.52.0/22 list=telecom
 add address=124.29.0.0/17 list=telecom
 add address=124.31.0.0/16 list=telecom
 add address=124.40.128.0/18 list=telecom
@@ -1177,6 +1183,7 @@ add address=144.7.0.0/17 list=telecom
 add address=144.12.0.0/16 list=telecom
 add address=144.48.212.0/22 list=telecom
 add address=144.52.0.0/16 list=telecom
+add address=144.79.42.0/23 list=telecom
 add address=144.123.0.0/16 list=telecom
 add address=144.255.0.0/16 list=telecom
 add address=145.14.71.0/24 list=telecom
@@ -1663,6 +1670,9 @@ add address=211.157.222.0/24 list=telecom
 add address=211.157.224.0/19 list=telecom
 add address=211.159.64.0/21 list=telecom
 add address=211.161.24.0/22 list=telecom
+add address=211.161.98.0/23 list=telecom
+add address=211.161.100.0/24 list=telecom
+add address=211.161.104.0/22 list=telecom
 add address=211.161.120.0/21 list=telecom
 add address=211.161.224.0/20 list=telecom
 add address=211.162.0.0/21 list=telecom
@@ -1685,6 +1695,7 @@ add address=218.67.0.0/17 list=telecom
 add address=218.70.0.0/15 list=telecom
 add address=218.72.0.0/13 list=telecom
 add address=218.80.0.0/12 list=telecom
+add address=218.96.70.0/23 list=telecom
 add address=218.96.126.0/24 list=telecom
 add address=218.96.128.0/24 list=telecom
 add address=218.97.240.0/20 list=telecom
