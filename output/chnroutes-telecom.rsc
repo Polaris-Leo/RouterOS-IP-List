@@ -324,11 +324,7 @@ add address=101.254.98.0/24 list=telecom
 add address=101.254.100.0/22 list=telecom
 add address=101.254.104.0/21 list=telecom
 add address=101.254.112.0/20 list=telecom
-add address=101.254.128.0/18 list=telecom
-add address=101.254.196.0/22 list=telecom
-add address=101.254.200.0/21 list=telecom
-add address=101.254.208.0/20 list=telecom
-add address=101.254.224.0/19 list=telecom
+add address=101.254.128.0/17 list=telecom
 add address=103.1.8.0/22 list=telecom
 add address=103.2.108.0/22 list=telecom
 add address=103.5.52.0/24 list=telecom
