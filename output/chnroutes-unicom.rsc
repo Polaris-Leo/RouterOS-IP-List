@@ -1088,6 +1088,7 @@ add address=203.207.208.0/20 list=unicom
 add address=203.207.224.0/19 list=unicom
 add address=203.212.0.0/21 list=unicom
 add address=203.212.8.0/22 list=unicom
+add address=206.109.71.0/24 list=unicom
 add address=210.2.1.0/24 list=unicom
 add address=210.5.128.0/20 list=unicom
 add address=210.12.0.0/16 list=unicom
