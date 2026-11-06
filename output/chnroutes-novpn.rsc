@@ -2591,13 +2591,13 @@ add address=123.4.0.0/14 list=novpn
 add address=123.8.0.0/13 list=novpn
 add address=123.49.192.0/23 list=novpn
 add address=123.49.194.0/24 list=novpn
+add address=123.49.196.0/24 list=novpn
 add address=123.49.231.0/24 list=novpn
 add address=123.49.232.0/24 list=novpn
 add address=123.49.237.0/24 list=novpn
 add address=123.49.238.0/23 list=novpn
 add address=123.49.240.0/24 list=novpn
 add address=123.49.242.0/23 list=novpn
-add address=123.49.245.0/24 list=novpn
 add address=123.52.0.0/14 list=novpn
 add address=123.56.0.0/15 list=novpn
 add address=123.58.0.0/19 list=novpn
