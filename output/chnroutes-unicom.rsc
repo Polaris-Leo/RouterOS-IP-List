@@ -984,6 +984,7 @@ add address=182.88.0.0/14 list=unicom
 add address=182.112.0.0/12 list=unicom
 add address=182.175.224.0/24 list=unicom
 add address=182.175.240.0/22 list=unicom
+add address=182.255.60.0/22 list=unicom
 add address=183.92.0.0/14 list=unicom
 add address=183.184.0.0/13 list=unicom
 add address=192.163.11.0/24 list=unicom
